@@ -38,7 +38,7 @@ uploadArchives {
 
     repositories.mavenDeployer {
         configuration = configurations.deployLibrary
-        repository(url: 'git:maven_repo://https://Emir.Kuljanin@bitbucket.virginpulse.com/scm/proj/android-dfu-library.git')
+        repository(url: 'git:master://https://Emir.Kuljanin@bitbucket.virginpulse.com/scm/proj/android-dfu-library.git')
 
         uniqueVersion = true
 
