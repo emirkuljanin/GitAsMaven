@@ -38,7 +38,7 @@ uploadArchives {
 
     repositories.mavenDeployer {
         configuration = configurations.deployLibrary
-        repository(url: 'git:maven_poms://ssh://git@bitbucket.virginpulse.com:7999/proj/android-dfu-library.git')
+        repository(url: 'git:maven_poms://https://Emir.Kuljanin@bitbucket.virginpulse.com/scm/dev/buzz-library-java.git')
 
         uniqueVersion = true
 
